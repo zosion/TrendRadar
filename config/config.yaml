@@ -41,7 +41,7 @@ app:
 # ===============================================================
 schedule:
   enabled: true                         # 是否启用调度系统
-  preset: "morning_evening"             # 预设模板名称（见上方说明）
+  preset: "night_owl"             # 预设模板名称（见上方说明）
 
 
 # ===============================================================
@@ -75,6 +75,32 @@ platforms:
       name: "微博"
     - id: "douyin"
       name: "抖音"
+    - id: "xiaohongshu"
+      name: "小红书"
+    - id: "tiktok"
+      name: "TikTok"
+    - id: "youtube"
+      name: "YouTube"
+    - id: "facebook"
+      name: "Facebook"
+    - id: "github"
+      name: "GitHub"
+    - id: "hackernews"
+      name: "Hacker News"
+    - id: "producthunt"
+      name: "Product Hunt"
+    - id: "juejin"
+      name: "掘金"
+    - id: "v2ex"
+      name: "V2EX"
+    - id: "36kr"
+      name: "36氪"
+    - id: "linuxdo"
+      name: "Linux.do"
+    - id: "ithome"
+      name: "IT之家"
+    - id: "sspai"
+      name: "少数派"
     - id: "zhihu"
       name: "知乎"
 
@@ -527,7 +553,7 @@ ai_analysis:
 # 模型配置见上方 ai 配置段
 # ===============================================================
 ai_translation:
-  enabled: true                    # 是否启用翻译功能
+  enabled: false                    # 是否启用翻译功能
 
   # 翻译目标语言
   # 格式：自然语言描述
@@ -577,8 +603,8 @@ advanced:
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
   weight:
-    rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
+    rank: 0.8                         # 排名权重
+    frequency: 0.1                    # 频次权重
     hotness: 0.1                      # 热度权重
 
   # 多账号限制

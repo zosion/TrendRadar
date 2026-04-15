@@ -256,3 +256,42 @@
 
 # 产业政策
 生产力
+
+
+# ═══════════════════════════════════════════════════════════════
+#                      AI 应用 / 大模型 / 开源
+# ═══════════════════════════════════════════════════════════════
+
+/AI应用|AI 应用|AIGC|智能体|Agent|工作流|自动化/ => AI应用
+
+/大模型|基座模型|多模态|推理模型|长上下文|蒸馏|量化|微调|RLHF|RAG|MCP|Prompt/ => 大模型技术
+@8
+
+/开源|开源项目|仓库|repo|star|stars|fork|commit|issue|PR|release/ => 开源项目
+@10
+
+/Llama|Qwen|通义千问|DeepSeek|GLM|Kimi|豆包|Gemini|Claude|GPT|ChatGPT|OpenAI|Anthropic|Mistral/ => 重点模型
+@8
+
+/LangChain|LlamaIndex|Dify|n8n|ComfyUI|Ollama|vLLM|SGLang|LiteLLM|FastAPI|Next\\.js/ => AI应用栈
+@8
+
+[企业落地AI]
+/企业AI|企业 AI|企业级AI|企业级 AI|AI落地|AI 落地|组织提效|流程自动化|Copilot落地|客服机器人|知识库问答|智能工单|销售线索评分|风控模型/
+@8
+
+[AI变现]
+/AI变现|AI 变现|商业化|订阅收入|SaaS 收入|自动获客|私域转化|AI副业|出海变现|付费转化|ARR|MRR/
+@8
+
+[一人公司]
+/一人公司|solo founder|solopreneur|indie hacker|micro saas|个人开发者|个人创业|单人创业|轻创业/
+@6
+
+[Agent框架与编排]
+/OpenClaw|openclaw|Harness agent|harness agent|Agentic Harness|browser-use|computer-use|computer use|tool calling|function calling|MCP Server/
+@6
+
+[大模型记忆]
+/记忆系统|长期记忆|短期记忆|上下文工程|context engineering|memory layer|向量记忆|知识库记忆|RAG记忆|会话记忆/
+@6
