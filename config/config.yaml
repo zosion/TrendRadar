@@ -153,6 +153,39 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    - id: "openai-blog"
+      name: "OpenAI Blog"
+      url: "https://openai.com/blog/rss.xml"
+
+    - id: "anthropic-news"
+      name: "Anthropic News"
+      url: "https://www.anthropic.com/news/rss.xml"
+
+    - id: "deepmind-blog"
+      name: "Google DeepMind Blog"
+      url: "https://deepmind.google/blog/rss.xml"
+
+    - id: "github-trending-rss"
+      name: "GitHub Trending RSS"
+      url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
+
+    - id: "infoq"
+      name: "InfoQ"
+      url: "https://www.infoq.com/feed/"
+
+    - id: "latent-space"
+      name: "Latent Space"
+      url: "https://www.latent.space/feed"
+      max_age_days: 3
+
+    - id: "jiqizhixin"
+      name: "机器之心"
+      url: "https://www.jiqizhixin.com/rss"
+
+    - id: "sspai-feed"
+      name: "少数派"
+      url: "https://sspai.com/feed"
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
@@ -190,7 +223,7 @@ report:
 
   rank_threshold: 5                   # 排名高亮阈值（影响展示强调，不改变抓取范围）
 
-  max_news_per_keyword: 0             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
+  max_news_per_keyword: 8             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
 
 
 # ===============================================================
